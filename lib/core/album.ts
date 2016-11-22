@@ -1,6 +1,6 @@
 //import * as request from 'request';
 import { request, RequestOptions } from 'http';
-import { deepClone, getRequestOption } from '../util';
+import { getRequestOption } from '../util';
 
 export const album = (id: number, callback?: (res) => void): Promise<any> => {
     let reqOption: RequestOptions = getRequestOption(`/api/album/${id}`);

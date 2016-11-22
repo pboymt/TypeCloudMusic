@@ -1,0 +1,1 @@
+export { album } from './core/album';

@@ -1,0 +1,33 @@
+{
+  "name": "163music-api",
+  "version": "0.0.1",
+  "description": "NeteaseMusicApi's TypeScript Version",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pboymt/TypeCloudMusic.git"
+  },
+  "keywords": [
+    "typescript",
+    "music",
+    "netease",
+    "163"
+  ],
+  "author": "pboymt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pboymt/TypeCloudMusic/issues"
+  },
+  "homepage": "https://github.com/pboymt/TypeCloudMusic#readme",
+  "dependencies": {
+    "@types/md5": "^2.1.31",
+    "@types/node": "^6.0.48",
+    "@types/request": "0.0.33",
+    "md5": "^2.1.0",
+    "typescript": "^2.0.10"
+  },
+  "devDependencies": {}
+}

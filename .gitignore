@@ -38,3 +38,5 @@ jspm_packages
 
 *.js
 .vscode
+# index.js
+*.json
